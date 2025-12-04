@@ -1,0 +1,44 @@
+.vContent {
+  padding: 30px 0 0;
+}
+.vWrap {
+  width: 73%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+  padding: 0px 0px 30px;
+}
+
+.aWrap {
+  color: #2B79CF;
+}
+
+.vTitle1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.vTitle2 {
+  margin: 20px 0;
+}
+.vChild {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .vContent {
+    padding: 5.333rem 2rem 10.667rem;
+  }
+  .commonTitle > div {
+    text-align: center;
+  }
+  .vWrap {
+    font-size: 3.467rem;
+    width: 100%;
+    padding: 0 0 8rem;
+    box-sizing: border-box;
+    word-break: break-all;
+  }
+}

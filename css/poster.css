@@ -1,0 +1,54 @@
+.cContent {
+  background-color: #fff;
+  padding: 73px 0 200px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 376px);
+}
+.cContent1 {
+  min-height: calc(100vh - 250px);
+}
+.cWrap {
+  width: 73%;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.blod {
+  font-weight: 700;
+}
+
+.telTitle {
+  margin: 50px 0;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  .cContent {
+    padding: 5.333rem 5.333rem 13.333rem;
+    box-sizing: border-box;
+    min-height: calc(100vh - 52.5rem);
+  }
+  .cContent1 {
+    min-height: calc(100vh - 52.5rem);
+  }
+  .cWrap {
+    width: 100%;
+    font-size: 3.467rem;
+    line-height: 4.267rem;
+  }
+  
+  
+  .telTitle {
+    margin: 6.667rem 0;
+  }
+}

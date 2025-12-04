@@ -1,0 +1,382 @@
+.pages {
+  /* background: #DFE7EF; */
+  width: 100%;
+}
+
+.blod {
+  font-weight: 700;
+}
+
+/* pc 导航*/
+.navPc {
+  background: #1879CF;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 70px 0 20px;
+}
+
+.navPc .layui-nav {
+  background: #1879CF;
+}
+.navPc .layui-nav .layui-nav-item {
+  margin-left: 25px;
+}
+.navPc .layui-nav .layui-this:after, .layui-nav-bar {
+  background-color:#fff;
+  opacity: 0 !important;
+}
+.layui-nav .layui-nav-item > a {
+  color:rgba(255,255,255,1);
+  font-size: 20px;
+}
+
+/* pc 底部 */
+.footer {
+  /* margin-top: 60px; */
+  background: #2E2E2E;
+  padding: 25px 0;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.fTitle {
+  color:#2B79CF;
+}
+
+/* pc通用头部 */
+.commonTitle {
+  background: url('../images/bg4.png') no-repeat;
+  background-size: 100% 100%;
+  height: 200px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #333333;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 空页面 */
+.vContent {
+  background-color: #fff;
+  padding: 73px 0 200px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 436px);
+  text-align: center;
+}
+
+.vTitle {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+  margin-top: 60px;
+}
+
+.none {
+  display: none;
+}
+
+.mobilePages {
+  display: none;
+}
+.navMobile {
+  display: none;
+}
+
+/* 右测弹窗 start */
+#speakersModal {
+  position: fixed;
+  top:0px;
+  width: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #fff;
+  overflow: hidden; /* 防止内容溢出 */
+  transition: width 0.3s ease; 
+}
+  
+/* 显示时的动画 */
+#speakersModal.active {
+  width: 30%; /* 从右侧滑入 */
+  box-shadow:0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
+}
+#speakersModal .s-box {
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #efefef;
+  height: 44px;
+  line-height: 44px;
+  text-align: right;
+}
+#speakersModal .speakerClose {
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+#speakersModal .s-nr {
+  padding: 20px;
+  overflow-y: scroll;
+  height: calc(100vh - 80px);
+}
+
+#speakersModal .s-nr .img {
+  width: 160px;
+  height: 160px;
+}
+#speakersModal .s-nr .title {
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+#speakersModal .s-nr .des {
+  margin-top: 10px;
+  line-height: 22px;
+  word-break: break-all;
+  font-size: 18px;
+}
+/* 右测弹窗 end */
+
+/* 三级导航处理 start */
+.navPc .threeNavWrap {
+  display: none !important;
+  top: 0px;
+  left: 100%;
+}
+
+.navPc .threeNav .layui-nav-more {
+  transform: rotate(-90deg);
+}
+
+.navPc .threeNav:hover .threeNavWrap {
+  display: block !important;
+}
+/* 三级导航处理 end */
+
+@media screen and (max-width: 1740px) {
+  .navPc {
+    padding: 0 0px 0 20px;
+  }
+  .navPc .layui-nav .layui-nav-item {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .layui-nav .layui-nav-item > a {
+    padding: 0 10px;
+  }
+  .layui-nav .layui-nav-more {
+    right: 0px;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .layui-nav .layui-nav-item > a {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .layui-nav .layui-nav-item > a {
+    font-size: 12px;
+  }
+}
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  html, body {
+    font-size: 1vw !important;
+  }
+  .pages {
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 12rem;
+  }
+  .navPc {
+    display: none;
+  }
+
+  .navMobile {
+    display: block;
+  }
+  .pcPages {
+    display: none;
+  }
+  .mobilePages {
+    display: block;
+  }
+
+  #mobileCarousel img {
+    width: 100%;
+  }
+  .commonTitle {
+    height: 26.667rem;
+    font-size: 5.333rem;
+  }
+
+ 
+
+  .footer {
+    padding: 3.333rem;
+    color: #606060;
+    font-size: 2.133rem;
+    /* font-size: 3.467rem; */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .vContent {
+    padding: 5.333rem 5.333rem 13.333rem;
+    min-height: auto;
+  }
+  
+  .vTitle {
+    font-size: 4rem;
+    margin-top: 8rem;
+  }
+  .venueImg {
+    width: 100%;
+  }
+  .footer1 {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  /* 移动端导航 */
+  .navMobile {
+    display: block;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+    box-sizing: border-box;
+    width: 100vw;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  .navMobile .img {
+    flex: 0 0 26.667rem;
+    width: 26.667rem;
+  }
+
+  .navMobile .open, .navMobile .close {
+    flex: 0 0 6.133rem;
+    width: 6.133rem;
+  }
+  /* 弹窗样式 */
+  .pop{
+    width: 100%;
+    min-height: calc(100vh - 12rem);
+    position: fixed;
+    background-color:#fff;
+    top: 100vh;
+    /* top:12rem; */
+    padding: 0 5.333rem;
+    box-sizing: border-box;
+    border-top:1px solid #dadada;
+    z-index: 1;
+  }
+  @keyframes frame{
+    from{
+      top: 100vh;
+    }
+    to{
+      top: 12rem;
+    }
+  }
+
+  @keyframes frame1{
+    from{
+      top: 12rem;
+    }
+    to{
+      top: 100vh;
+    }
+  }
+  
+  .show{
+    display: block;
+    animation: frame 0.3s linear;
+    animation-fill-mode: forwards;
+  }
+  .modalHide {
+    animation: frame1 0.3s linear;
+    animation-fill-mode: forwards;
+  }
+  #bottomModal .layui-nav {
+    background-color: #fff;
+    width: 100%;
+  }
+  #bottomModal .layui-nav .layui-nav-item  a {
+    color:#333 !important;
+  }
+  #bottomModal .layui-nav-tree .layui-nav-child {
+    background-color: #fff;
+  }
+  #bottomModal .layui-nav-tree .layui-nav-item {
+    border-bottom: 1px solid #dadada;
+  }
+  #bottomModal .layui-this {
+    background-color: #fff;
+  }
+  #bottomModal .layui-this a{
+    background-color: #fff;
+  }
+  #bottomModal .layui-nav-child {
+    padding-left: 20px;
+  }
+  /* 右测弹窗 start */
+
+  /* 显示时的动画 */
+  #speakersModal.active {
+    width: 65% !important; /* 从右侧滑入 */
+
+  }
+  #speakersModal .s-box {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #efefef;
+    height: 44px;
+    line-height: 44px;
+    text-align: right;
+  }
+  #speakersModal .speakerClose {
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #speakersModal .s-nr {
+    padding: 20px;
+    overflow-y: scroll;
+    height: calc(100vh - 80px);
+  }
+
+  #speakersModal .s-nr .img {
+    width: 160px;
+    height: 160px;
+  }
+  #speakersModal .s-nr .title {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  #speakersModal .s-nr .des {
+    margin-top: 10px;
+    line-height: 22px;
+    word-break: break-all;
+    font-size: 4rem;
+  }
+  /* 右测弹窗 end */
+}

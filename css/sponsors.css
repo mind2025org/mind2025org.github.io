@@ -1,0 +1,207 @@
+.sWrap {
+  width: 73%;
+  margin: 0 auto;
+  padding: 30px 0 168px;
+  font-size: 22px;
+}
+
+.sTitle {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.sWrap1 {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.img1 {
+  width: 100%;
+  margin-top: 45px;
+}
+.sWrap2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  line-height: 30px;
+}
+.sWrap2 > div {
+  flex: 1;
+  margin-right: 2%;
+}
+
+.img2 {
+  flex: 0 0 584px;
+}
+
+.sWrap3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.sWrap3 > div {
+  flex:1;
+  margin-left: 2%;
+}
+.sWrap4 {
+  margin-top: 50px;
+  line-height: 30px;
+}
+.sWrap41 {
+  display: flex;
+  margin-top: 10px;
+}
+.sWrap41 span {
+  color: #1879CF;
+  margin-left: 10px;
+}
+.sWrap41 a {
+  color: #1879CF;
+}
+.sWrap41 > div:first-child {
+  margin-right: 113px;
+}
+.organ {
+  margin-top: 75px;
+}
+/* .oTitle {
+  font-weight: 700;
+  font-size: 50px;
+  color: #2B79CF;
+  text-align: center;
+}
+.oTitle1 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.organImgWrap {
+  text-align: center;
+  max-width: 1430px;
+  margin: 0 auto;
+}
+.organImgWrap img {
+  margin: 30px 70px 0;
+} */
+
+/* 赞助，跟首页一样*/
+.organs {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2B79CF;
+    letter-spacing: 0;
+    padding: 60px 0 50px;
+}
+.oTitle {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2B79CF;
+  text-align: center;
+}
+
+.oTitle1 {
+  margin: 30px auto 10px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  color:#333;
+}
+.oTitle2 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #333333;
+}
+.dOrgan1Img {
+  display: inline-block;
+  width: 650px;;
+}
+.sOrganWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.sOrganWrap > div {
+  flex: 0 0 230px;
+  margin-top: 40px;
+  
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .sWrap {
+    width: 100%;
+    padding: 4rem 5.333rem 20rem;
+    box-sizing: border-box;
+    font-size: 3.467rem;
+    line-height: 4rem;
+  }
+  .sTitle {
+    font-size: 4rem;
+  }
+  .sWrap2 {
+    margin-top: 20px;
+  }
+  .sWrap2 > div {
+    flex: 0 0 100%;
+    margin-right:0px;
+  }
+  .img1 {
+    margin-top: 20px;
+  }
+  .img2 {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .sWrap3 {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .sWrap3 > div {
+    flex: 0 0 100%;
+    margin-left: 0px;
+  }
+  .sWrap4 {
+    margin-top: 20px;
+  }
+  .sWrap41 {
+    flex-wrap: wrap;
+  }
+  .sWrap41 > div:first-child {
+    flex: 0 0 100%;
+    margin-right: 10px;
+  }
+  .organs {
+    padding: 0;
+    font-size: 6.133rem;
+  }
+  .oTitle {
+    font-size: 6.133rem;
+  }
+  .oTitle1 {
+    font-size: 4rem;
+  }
+  .dOrgan1Img {
+      display: inline-block;
+      width: 66.667rem;
+      margin-top: 20px;
+  }
+  .oTitle2 {
+    font-size: 4rem;
+    color: #333333;
+    text-align: center;
+  }
+  .sOrganWrap > div {
+    flex: 0 0 45%;
+    margin-top: 6.667rem;
+  }
+  .sOrganWrap > div img {
+    width: 100%;
+  }
+}

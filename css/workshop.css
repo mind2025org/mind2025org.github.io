@@ -1,0 +1,389 @@
+.commonTitle {
+  flex-direction: column;
+}
+.commonTitle1 {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.wContent {
+  width: 70%;
+  margin: 0 auto;
+}
+.wWrap1 {
+  font-size: 22px;
+  color: #333333;
+  line-height: 30px;
+  padding: 20px 0;
+  border-bottom:1px solid rgba(0, 0, 0, 0.24);
+}
+.wTitle {
+  padding: 30px 0 20px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #333333;
+}
+.wWrap1A {
+  font-size: 24px;
+}
+.wWrap2 {
+  padding: 20px 0;
+  border-bottom:1px solid rgba(0, 0, 0, 0.24);
+}
+
+.wWrap2Ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wWrap2Ul > li {
+  flex: 0 0 32%;
+  margin-top: 30px;
+}
+
+.wWrap2T1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2B79CF;
+}
+
+.wWrap2T2 {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.wWrap2T3 {
+  font-size: 22px;
+  color: #333333;
+  line-height: 30px;
+}
+
+.wWrap3 {
+  padding-bottom: 100px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.24);
+}
+
+.wWrap3 img {
+  width: 100%;
+  margin-top: 100px;
+}
+.wWrap3 .imgM {
+  display: none;
+}
+.wWrap4 {
+  padding-bottom: 20px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.24);
+}
+
+.wWrap4T1 {
+  color: #333333;
+  font-size: 22px;
+  line-height: 30px;
+  word-break: break-all;
+}
+
+.wWrap5 {
+  padding-bottom: 50px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.24);
+}
+
+.wWrap5Ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wWrap5Ul li {
+  flex: 0 0 25%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.wWrap5Ul li img {
+  width: 160px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.wWrap5T1 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #333333;
+  
+}
+
+.wWrap5T2 {
+  font-size: 20px;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.wWrap6 {
+  padding-bottom: 250px;
+}
+
+.speakersUl {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.speakersLl {
+  text-align: center;
+  margin: 0 3%;
+  margin: 0 7%;
+  background: #fff;
+  padding: 20px;
+  width: 20%;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, .5);
+  min-width: 400px;
+}
+.speakersLl .img {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.sTitle3 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #2B79CF;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sTitle4 {
+  margin-top: 10px;
+  font-size: 26px;
+  color:#333;
+}
+.sTitle5 {
+  margin-top: 10px;
+  min-height: 40px;
+  font-size: 20px;
+  color:#333;
+}
+.sTitle7 {
+  margin-top: 10px;
+  min-height: 40px;
+  font-size: 20px;
+  color:#333;
+}
+.speakersBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.speakersBtns > * {
+  border: 1px solid #2B79CF;
+  background-color: white;
+  border-radius: 6px;
+  color: #2B79CF !important;
+  font-weight: bold;
+  padding: 6px 0px;
+  flex: 0 0 150px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0 10px;
+  font-size: 18px;
+} 
+.speakersLlNone {
+  box-shadow: none;
+}
+
+.Website {
+  cursor: default;
+}
+.cTitle3 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #2B79CF;
+  text-align: center;
+  margin-top: 40px;
+}
+.vContent {
+  padding: 0px 0 0px;
+  min-height: auto;
+}
+@media screen and (max-width: 1090px) {
+  .speakersLl {
+    margin: 50px 1% 0;
+  }
+  .speakersUl1 .speakersLl {
+    margin: 50px 1% 0px;
+  }
+}
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  .commonTitle {
+    font-size: 4rem;
+    padding: 0 6.667rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .commonTitle1 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+  }
+  .wContent {
+    width: 100%;
+    padding: 0 5.333rem 5.333rem;
+    box-sizing: border-box;
+  }
+  .wWrap1 {
+    font-size: 3.467rem;
+    color: #333333;
+    line-height: 4.267rem;
+    padding: 4.667rem 0;
+  }
+  .wTitle {
+    padding: 0px 0 4rem;
+    font-size: 3.733rem;
+    color: #333333;
+  }
+  .wWrap1A {
+    font-size: 4rem;
+  }
+  .wWrap2 {
+    padding: 4.667rem 0;
+  }
+  .wWrap2Ul > li {
+    flex: 0 0 100%;
+    margin-top: 4rem;
+  }
+  .wWrap2T1 {
+    font-size: 4rem;
+  }
+  .wWrap2T2 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+  }
+  .wWrap2T3 {
+    font-size: 3.467rem;
+    line-height: 4.267rem;
+  }
+  .wWrap3 {
+    padding: 4.667rem 0;
+  }
+  
+  .wWrap3 img {
+    display: none;
+  }
+  .wWrap3 .imgM {
+    display: block;
+    width: 50%;
+    margin-top: 4.667rem;
+  }
+
+  .wWrap4 {
+    padding: 4.667rem 0;
+  }
+  
+  .wWrap4T1 {
+    font-size: 3.467rem;
+    line-height: 4.267rem;
+    word-break: break-all;
+  }
+
+  .wWrap5 {
+    padding: 4.667rem 0;
+  }
+
+  .wWrap5Ul li {
+    flex: 0 0 50%;
+    margin-top: 6.667rem;
+    text-align: center;
+  }
+  
+  .wWrap5Ul li img {
+    width: 21.333rem;
+    border-radius: 100%;
+    margin-bottom: 2.667rem;
+  }
+  .wWrap5T1 {
+    font-size: 3.467rem;
+    color: #333333;
+    
+  }
+  
+  .wWrap5T2 {
+    font-size: 3.467rem;
+    color: #333333;
+    margin-top: 1.333rem;
+  }
+  
+  .wWrap6 {
+    padding-bottom: 13.333rem;
+  }
+   .vContent {
+    padding: 0 2rem 0rem;
+  }
+  .speakersLl {
+    flex: 0 0 90%;
+    min-width: auto;
+    margin: 0 1% 20px;
+    padding: 2.667rem 2.667rem 10rem;
+    position: relative;
+  }
+  .speakersUl {
+    margin-top: 5.333rem;
+  }
+  .sTitle3 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+  }
+  .sTitle4 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+  }
+  .sTitle5 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+    min-height: auto;
+  }
+  .sTitle7 {
+    font-size: 3.467rem;
+    margin-top: 1.333rem;
+    min-height: auto;
+  }
+  .speakersLlNone {
+    display: none;
+  }
+  .speakersBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.333rem;
+    position: absolute;
+    bottom: 2.667rem;
+    left: 0px;
+    right: 0px;
+  }
+  .speakersBtns > * {
+    border: 1px solid #2B79CF;
+    background-color: white;
+    border-radius: 6px;
+    color: #2B79CF !important;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0 1rem;
+    font-size: 3.2rem;
+  } 
+  .cTitle3 {
+    font-size: 5.067rem;
+    margin-top: 10.667rem;
+  }
+} 

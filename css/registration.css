@@ -1,0 +1,57 @@
+.vWrap {
+  width: 73%;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: left;
+  font-size: 22px;
+}
+
+.rWrap1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.rWrap1 a {
+  color:#2B79CF;
+}
+.rWrap2 {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24) ;
+}
+.rTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.rWrap2:last-child {
+  border-bottom: none;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.rWrap1Wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.c-grey {
+  color:grey;
+}
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  .vWrap {
+    font-size: 3.467rem;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .rWrap1 {
+    font-size: 4rem;
+  }
+  .rTitle {
+    font-size: 4rem;
+  }
+}

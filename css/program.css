@@ -1,0 +1,110 @@
+.commonTitle {
+  justify-content: center;
+  flex-direction: column;
+}
+.cTitle1 {
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+}
+.vContent {
+  padding: 30px 0 0;
+}
+.vWrap {
+  width: 73%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+  font-size: 22px;
+}
+.instro {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.instro > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.instro > div {
+  font-size: 18px;
+  /* margin-top: 10px; */
+}
+.number {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24) ;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.number .logo {
+  flex: 0 0 160px
+}
+.number .logo img {
+  width: 100%;
+}
+.number .content {
+  flex:1;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.number .content > div {
+  margin-bottom: 10px;
+}
+.number .content a {
+  color: #2B79CF;
+  border-bottom: dotted 1px #2B79CF;
+  text-decoration: unset;
+}
+
+.number .content .fBlod {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.number:last-child {
+  border-bottom: none;
+}
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  .vContent {
+    padding: 5.333rem 5.333rem 13.333rem;
+    min-height: auto;
+  }
+  .instro > h2 {
+    font-size: 4rem;
+  }
+  .instro > div {
+    font-size: 3.467rem;
+  }
+  .vWrap {
+    font-size: 3.467rem;
+    width: 100%;
+    padding: 0 0 8rem;
+    box-sizing: border-box;
+  }
+  .number {
+    display: block;
+  }
+  .number .content .fBlod {
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  .number .logo {
+    width: 160px;
+    margin-bottom: 10px;
+  }
+  .number .content {
+    padding-left: 0px;
+    font-size: 3.467rem;
+  }
+  .cTitle1 {
+    font-size: 3.467rem;
+  }
+}

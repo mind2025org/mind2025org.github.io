@@ -1,0 +1,109 @@
+.CommitteeWrap {
+  background: #fff;
+  padding: 40px 0 180px;
+}
+
+.cTitle1 {
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.cTitle2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #2B79CF;
+  text-align: center;
+}
+
+.CommitteeUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+.CommitteeLl {
+  flex: 0 0 390px;
+  flex: 0 0 27%;
+  margin: 50px 20px 0;
+  text-align: center;
+}
+
+.CommitteeLl .img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.cTitle3 {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2B79CF;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.cTitle4 {
+  font-size: 26px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.cTitle21 {
+  margin-top: 80px;
+}
+
+.CommitteeLi1 {
+  margin: 50px 70px 0;
+}
+
+
+
+/* 适配移动端 */
+@media screen and (max-width: 750px) {
+  .CommitteeWrap {
+    padding: 9.333rem 0 20rem;
+  }
+
+  .cTitle1 {
+    font-size: 3.467rem;
+  }
+
+  .cTitle2 {
+    font-size: 5.067rem;
+    margin-top: 2rem;
+  }
+  .CommitteeUl {
+    padding: 0 5.333rem;
+    margin-top: 5.333rem;
+    justify-content:flex-start;
+  }
+  .CommitteeLl {
+    flex: 0 0 50%;
+    margin: 6.667rem 0 0;
+    padding: 0 2.667rem;
+    box-sizing: border-box;
+  }
+  .CommitteeLl .img {
+    width: 21.333rem;
+    height: 21.333rem;
+  }
+  .cTitle3 {
+    font-size: 3.467rem;
+  }
+
+  .cTitle4 {
+    font-size: 3.467rem;
+  }
+
+  .cTitle21 {
+    margin-top: 10.667rem;
+  }
+  .CommitteeUl3 {
+    justify-content: center;
+  }
+}
